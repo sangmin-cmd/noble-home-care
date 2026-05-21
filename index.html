@@ -288,8 +288,8 @@ const CASE_STUDIES = [
 // 연락처 & CTA 핸들러
 // ───────────────────────────────────────────────────────────────────
 const PHONE = '010-5421-9323';
-const KAKAO_URL = ''; // 오픈채팅 URL - 만들어지면 여기에 박기 (예: https://open.kakao.com/o/...)
-const TALLY_URL = ''; // Tally 폼 URL - 만들어지면 여기에 박기 (예: https://tally.so/r/...)
+const KAKAO_URL = 'https://open.kakao.com/o/s7XZb1ui'; // 오픈채팅 URL
+const TALLY_URL = 'https://tally.so/r/LZa9ql'; // Tally 견적 신청 폼
 
 const handlePhone = () => { window.location.href = `tel:${PHONE.replace(/-/g, '')}`; };
 const handleKakao = () => {
@@ -1780,7 +1780,7 @@ function NobleCareLanding() {
             </div>
             <div className="text-sm space-y-1">
               <p>고객센터: 010-5421-9323 (평일 09:00-18:00)</p>
-              <p>카카오톡 채널: 준비 중</p>
+              <p>카카오톡 오픈채팅: <a href="https://open.kakao.com/o/s7XZb1ui" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-300">바로가기</a></p>
               <p className="text-xs mt-3 text-stone-600">© 2025 Noble Home Care Cleaning Solutions. All rights reserved.</p>
             </div>
           </div>
